@@ -84,7 +84,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .banner-plus .row {
+  .banner-plus .row,
+  .banner-now .row {
     height: auto;
   }
 }
@@ -104,4 +105,8 @@
 
 .banner-plus {
   background-color: #bebcbb;
+}
+
+.banner-now {
+  background-color: #161c3b;
 }
