@@ -44,6 +44,10 @@
   padding-top: 300px;
 }
 
+.ec-h30 {
+  height: 30px;
+}
+
 .ec-height {
   height: 550px;
 }
@@ -109,4 +113,8 @@
 
 .banner-now {
   background-color: #161c3b;
+}
+
+footer {
+  background-color: #00439c;
 }
