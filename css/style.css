@@ -7,7 +7,15 @@
   height: 50px;
 }
 
-.w100 {
+.h200 {
+  height: 200px;
+}
+
+.h600 {
+  height: 600px;
+}
+
+.max-height {
   width: 100%;
 }
 
@@ -18,3 +26,35 @@
 .sony-logo {
   vertical-align: middle;
 }*/
+
+.img-try {
+  position: relative;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ec-returnal {
+  padding-top: 300px;
+}
+
+.ec-height {
+  height: 550px;
+}
+
+.ec-w {
+  width: max-content;
+}
+
+@media screen and (min-width: 1530px) {
+  .ec-img-w {
+    height: 100px;
+    margin: 0 50px;
+  }
+}
