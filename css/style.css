@@ -147,10 +147,10 @@ footer ul li a {
 
 /* nav */
 
-header ul {
-  list-style-type: none;
-}
-
 #lens {
   height: 40px;
+}
+
+.ec-icon:hover {
+  border: 1px solid black;
 }
