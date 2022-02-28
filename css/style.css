@@ -119,10 +119,38 @@ footer {
   background-color: #00439c;
 }
 
-.nav-item:hover .dropdown-menu {
-  display: block;
+.dropdown:hover .dropdown-menu {
+  display: inline-block;
 }
 
-.prova {
-  width: 1750px;
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* nav */
+
+.ec-direction {
+  left: 0%;
+  top: 80%;
+  width: 100%;
+  border-top: none;
+}
+
+.ec-position {
+  position: static;
+}
+
+/* nav */
+
+header ul {
+  list-style-type: none;
+}
+
+#lens {
+  height: 40px;
 }
