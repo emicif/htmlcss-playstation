@@ -154,3 +154,11 @@ footer ul li a {
 .ec-icon:hover {
   border: 1px solid black;
 }
+
+.ec-img-opacity img {
+  opacity: 50%;
+}
+
+.ec-img-opacity:hover img {
+  opacity: 100%;
+}
