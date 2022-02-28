@@ -118,3 +118,11 @@
 footer {
   background-color: #00439c;
 }
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.prova {
+  width: 1750px;
+}
